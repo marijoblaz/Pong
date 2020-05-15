@@ -1,29 +1,33 @@
 # Foobar
 
-EXAMPLE README
+PONG game SFML 2.5 C++
 
 ## Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
+Follow the tutorial at [SFML](https://www.sfml-dev.org/tutorials/2.5/start-vc.php) to install SFML.
 
-```bash
-pip install foobar
-```
 
 ## Usage
 
-```python
-import foobar
+```c++
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
+//At GameState.h
+//Change this bool to enable pong as a CLOCK
+bool clockBool = false;
+
+
+//At GameState.cpp
+//Changing CPU to 1 enables CPU play
+
+this->player1 = new Player(mWindow, 1, [CPU]);
+this->player2 = new Player(mWindow, 0, [CPU]);
+
 ```
 
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+## How to play
 
-Please make sure to update tests as appropriate.
+Player 1 - use the W|S keys
+Player 2 - use the Arrow keys
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
