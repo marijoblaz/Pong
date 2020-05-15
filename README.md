@@ -2,6 +2,7 @@
 
 Classic retro game revisited using SFML 2.5 and C++
 
+Credit to [captaincrunch80](https://opengameart.org/content/3-ping-pong-sounds-8-bit-style) for great 8 bit sounds!
 
 ## Installation
 
